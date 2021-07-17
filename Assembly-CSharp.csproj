@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b6ee8d01-fd38-41c8-11a3-17a719b1ccca}</ProjectGuid>
+    <ProjectGuid>{aea4f7f5-b0b9-c167-131c-bfdc17e894f1}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,8 +52,64 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ReorderableListAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\DropdownAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\ValidatorAttributes\ValidatorAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\CurveRangeAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
+     <Compile Include="Assets\Extra Package\QuickOutline\Scripts\Outline.cs" />
+     <Compile Include="Assets\Extra Package\Sphero\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttributeBase.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNonSerializedFieldAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitOutline.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\HideIfAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\Expandable.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\ValidatorAttributes\MaxValueAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\IGroupAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\RenderFeatures\Common\ShaderIncludeUtilities.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\LabelAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\TagAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttributeBase.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\ValidatorAttributes\RequiredAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\MetaAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\Utility\EConditionOperator.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\SpecialCaseDrawerAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ButtonAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FogSettings.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\OutlineSettings.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\FoldoutAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\Water\Scripts\Buoyancy.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\AnimatorParamAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\EnumFlagsAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\InfoBoxAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\SceneAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\HorizontalLineAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\InputAxisAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\Utility\EColor.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\ResizableTextAreaAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\ValidatorAttributes\MinValueAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\RenderFeatures\Outline\FlatKitDepthNormals.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Scripts\UvScroller.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\ProgressBarAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\RenderFeatures\Fog\FlatKitFog.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\BoxGroupAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\ICustomAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNativePropertyAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\MetaAttributes\OnValueChangedAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\DrawerAttribute.cs" />
+     <Compile Include="Assets\Extra Package\FlatKit\Utils\EditorAttributes\Core\DrawerAttributes\ShowAssetPreviewAttribute.cs" />
+     <None Include="Assets\Extra Package\FlatKit\Shaders\StylizedSurface\LibraryUrp\LitForwardPass_DR.hlsl" />
+     <None Include="Assets\Extra Package\FlatKit\Shaders\StylizedSurface\LibraryUrp\StylizedInput.hlsl" />
+     <None Include="Assets\Extra Package\FlatKit\Shaders\StylizedSurface\LibraryUrp\Lighting_DR.hlsl" />
+     <None Include="Assets\Extra Package\Sphero\Shaders\Skybox Gradient.shader" />
+     <None Include="Assets\Extra Package\FlatKit\Shaders\StylizedSurface\StylizedSurface.shader" />
+     <None Include="Assets\Extra Package\FlatKit\[Render Pipeline] URP\Water\Shaders\Water.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -277,7 +333,7 @@
  <HintPath>/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -634,70 +690,79 @@
  <HintPath>/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Searcher.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
- <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost Shader/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder.Editor">
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder">
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder.Base">
+ <HintPath>/Users/ozgur/Desktop/GhostShader/Ghost-Shader/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
