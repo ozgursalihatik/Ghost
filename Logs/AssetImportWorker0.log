@@ -571,3 +571,66 @@ Received Import Request.
 Start importing Assets/Extra-Package/Sphero/Materials/Skybox.mat using Guid(831bbfee037d257498861107bb248471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98547cea68e5cf62d35d1dbf61cd5b9') in 0.031064 seconds
   Import took 0.045978 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1554.227398 seconds.
+  path: Assets/Materials/MAT-Helmet.mat
+  artifactKey: Guid(079eb7aecbe7c4afd9bf13e3c4e82840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MAT-Helmet.mat using Guid(079eb7aecbe7c4afd9bf13e3c4e82840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dc7959b74e303d32caf3335a5c6db8') in 0.120556 seconds
+  Import took 0.140562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.535252 seconds.
+  path: Assets/Materials/MAT.mat
+  artifactKey: Guid(5f21cad463f2e40a28fb9511814bc79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MAT.mat using Guid(5f21cad463f2e40a28fb9511814bc79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8fa0cd39977185eae97889bbce05c2') in 0.015148 seconds
+  Import took 0.020797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 595.889327 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(1a8f892a63a9f43f0a43355821aaa128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(1a8f892a63a9f43f0a43355821aaa128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a599ec7c258a4c6dd553a7d98c8d41d') in 0.002354 seconds
+  Import took 0.016317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.653990 seconds.
+  path: Assets/Animation/Camera
+  artifactKey: Guid(0ec2812725b094e9085922fe556131ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Camera using Guid(0ec2812725b094e9085922fe556131ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa5941d5f4d9c2a2c6c4e64fb8bdfbc') in 0.008065 seconds
+  Import took 0.012407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.811847 seconds.
+  path: Assets/Animation/Camera/ANIM-CameraMovement.anim
+  artifactKey: Guid(47f940535d3c44696b5f9f4a34049697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Camera/ANIM-CameraMovement.anim using Guid(47f940535d3c44696b5f9f4a34049697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c446e4622fbeff15b5603d951b36dc') in 0.231277 seconds
+  Import took 0.236314 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.413 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.1 MB.
+System memory in use after: 261.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3447.
+Total: 2.933542 ms (FindLiveObjects: 0.208042 ms CreateObjectMapping: 0.063750 ms MarkObjects: 1.445042 ms  DeleteObjects: 1.215667 ms)
+
