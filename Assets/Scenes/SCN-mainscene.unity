@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.03
+  m_AmbientIntensity: 0.82
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.009433985, g: 0.009433985, b: 0.009433985, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 831bbfee037d257498861107bb248471, type: 2}
@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 256
+  m_DefaultReflectionResolution: 512
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -9938,6 +9938,7 @@ GameObject:
   - component: {fileID: 636296367}
   - component: {fileID: 636296366}
   - component: {fileID: 636296369}
+  - component: {fileID: 636296370}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10042,6 +10043,22 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!111 &636296370
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636296365}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 47f940535d3c44696b5f9f4a34049697, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 47f940535d3c44696b5f9f4a34049697, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &872786235
 GameObject:
   m_ObjectHideFlags: 0
@@ -34962,6 +34979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1845463926}
   - component: {fileID: 1845463925}
+  - component: {fileID: 1845463927}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -34991,8 +35009,8 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
+    m_Bias: 1
+    m_NormalBias: 1
     m_NearPlane: 1.79
     m_CullingMatrixOverride:
       e00: 1
@@ -35045,6 +35063,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 117.95999, y: -26.341003, z: 3.0330048}
+--- !u!114 &1845463927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845463924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UsePipelineSettings: 1
 --- !u!1001 &1970805727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35173,7 +35204,7 @@ PrefabInstance:
     - target: {fileID: -5517641507089533815, guid: fa017b04e2b944b0c9f7e6f10d3c7221, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: dfb2b6e7d536c476aad434f9b48475e9, type: 2}
+      objectReference: {fileID: 2100000, guid: 079eb7aecbe7c4afd9bf13e3c4e82840, type: 2}
     - target: {fileID: -998698647601146982, guid: fa017b04e2b944b0c9f7e6f10d3c7221, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -35181,7 +35212,7 @@ PrefabInstance:
     - target: {fileID: 81669357392239139, guid: fa017b04e2b944b0c9f7e6f10d3c7221, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: db03628f5174a4471b82fc9b8987f023, type: 2}
+      objectReference: {fileID: 2100000, guid: 079eb7aecbe7c4afd9bf13e3c4e82840, type: 2}
     - target: {fileID: 919132149155446097, guid: fa017b04e2b944b0c9f7e6f10d3c7221, type: 3}
       propertyPath: m_Name
       value: MODEL-helmet2
@@ -35189,7 +35220,7 @@ PrefabInstance:
     - target: {fileID: 5297281610296236434, guid: fa017b04e2b944b0c9f7e6f10d3c7221, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: db03628f5174a4471b82fc9b8987f023, type: 2}
+      objectReference: {fileID: 2100000, guid: 079eb7aecbe7c4afd9bf13e3c4e82840, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa017b04e2b944b0c9f7e6f10d3c7221, type: 3}
 --- !u!1001 &2029732949
