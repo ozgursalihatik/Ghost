@@ -937,3 +937,57 @@ Received Import Request.
 Start importing Assets/Shaders/Ghost Shader/MAT-ghostshader.mat using Guid(22247f082f9924ebeb1b5836531daf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff60e6c9a2732b9aebf17b9c29695819') in 0.582140 seconds
   Import took 0.586941 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.735 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.1 MB.
+System memory in use after: 274.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3622.
+Total: 4.719708 ms (FindLiveObjects: 0.407125 ms CreateObjectMapping: 0.063583 ms MarkObjects: 2.936459 ms  DeleteObjects: 1.311916 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36386.080740 seconds.
+  path: Assets/Extra-Package/Sphero/Materials/Skybox.mat
+  artifactKey: Guid(831bbfee037d257498861107bb248471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extra-Package/Sphero/Materials/Skybox.mat using Guid(831bbfee037d257498861107bb248471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd290b4e173d2bbb2abc076a1b0411722') in 1.054760 seconds
+  Import took 1.211945 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.821 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 278.1 MB.
+System memory in use after: 275.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3661.
+Total: 6.029208 ms (FindLiveObjects: 0.587083 ms CreateObjectMapping: 0.072292 ms MarkObjects: 3.093708 ms  DeleteObjects: 2.275250 ms)
+
