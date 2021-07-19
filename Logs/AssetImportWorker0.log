@@ -1528,3 +1528,34 @@ System memory in use after: 293.1 MB.
 Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3761.
 Total: 3.228584 ms (FindLiveObjects: 0.225209 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.595250 ms  DeleteObjects: 1.342250 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4427.361005 seconds.
+  path: Assets/Scenes/SCN-mainscene.unity
+  artifactKey: Guid(db7bcb955c06146749a975dd5aeb2519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SCN-mainscene.unity using Guid(db7bcb955c06146749a975dd5aeb2519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcba3130f2330e52bccdbfba7be49997') in 0.071807 seconds
+  Import took 0.136151 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.955 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 296.1 MB.
+System memory in use after: 293.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 7.850833 ms (FindLiveObjects: 1.028250 ms CreateObjectMapping: 0.075541 ms MarkObjects: 4.421750 ms  DeleteObjects: 2.323625 ms)
+
