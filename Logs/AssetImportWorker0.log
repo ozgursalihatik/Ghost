@@ -1271,3 +1271,90 @@ Received Import Request.
 Start importing Assets/Scenes/SCN-LightScene.unity using Guid(14259347de69d4d44b0aeba47acbd1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae3db109afd89d6cc65ad4b8907dd28') in 0.004047 seconds
   Import took 0.008444 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 169.132679 seconds.
+  path: Assets/Shaders/Ghost Shader/MAT-ghostshader 1.mat
+  artifactKey: Guid(f4fc6dd1c1b684a609972c0289c4c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Ghost Shader/MAT-ghostshader 1.mat using Guid(f4fc6dd1c1b684a609972c0289c4c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16af5a76d08382a97260cb96b09133d7') in 0.548968 seconds
+  Import took 0.562728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Shaders/Ghost Shader/MAT-ghostshader 2.mat
+  artifactKey: Guid(e175255f6b1b8469ea1cb958b945b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Ghost Shader/MAT-ghostshader 2.mat using Guid(e175255f6b1b8469ea1cb958b945b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a241781ce5f3b849b067f2d3934170') in 0.040124 seconds
+  Import took 0.043728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001605 seconds.
+  path: Assets/Shaders/Ghost Shader/MAT-GhostShader2.mat
+  artifactKey: Guid(7fe5f966e13a94bdd8c50ca08a3d2744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Ghost Shader/MAT-GhostShader2.mat using Guid(7fe5f966e13a94bdd8c50ca08a3d2744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d8d5aa2d49724cdde6cdeb4c3215b8') in 0.016545 seconds
+  Import took 0.020600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Shaders/Ghost Shader/MAT-ghostshader.mat
+  artifactKey: Guid(22247f082f9924ebeb1b5836531daf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Ghost Shader/MAT-ghostshader.mat using Guid(22247f082f9924ebeb1b5836531daf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b04fbca3bcc4347f75ce59bce07307e') in 0.009835 seconds
+  Import took 0.013575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Shaders/Ghost Shader/MAT-GhostShader2 2.mat
+  artifactKey: Guid(3212ea95828a049849daf269ffeab62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Ghost Shader/MAT-GhostShader2 2.mat using Guid(3212ea95828a049849daf269ffeab62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899ea461bc08f861021cf5838cc80790') in 0.007953 seconds
+  Import took 0.011534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Shaders/Ghost Shader/MAT-GhostShader2 1.mat
+  artifactKey: Guid(b1194c90aef4c476d885385fdb3c6f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Ghost Shader/MAT-GhostShader2 1.mat using Guid(b1194c90aef4c476d885385fdb3c6f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de931c8792479c0739629a2cf9f7b58b') in 0.007279 seconds
+  Import took 0.010671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.670531 seconds.
+  path: Assets/Ghost/Ghost.controller
+  artifactKey: Guid(4284725da9e314b2089bff038a7860c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost/Ghost.controller using Guid(4284725da9e314b2089bff038a7860c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c60753500e314d3ba760678b4c4768') in 0.338429 seconds
+  Import took 0.353027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025668 seconds.
+  path: Assets/Ghost/Ghost.controller
+  artifactKey: Guid(4284725da9e314b2089bff038a7860c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost/Ghost.controller using Guid(4284725da9e314b2089bff038a7860c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c60753500e314d3ba760678b4c4768') in 0.002464 seconds
+  Import took 0.006766 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.738 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.7 MB.
+System memory in use after: 288.4 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3743.
+Total: 5.014459 ms (FindLiveObjects: 0.231917 ms CreateObjectMapping: 0.066541 ms MarkObjects: 2.794625 ms  DeleteObjects: 1.920292 ms)
+
